@@ -4,25 +4,27 @@ Package can be used for shop implementation
 
 ### Entities list
 
-* Shop
+__Entities__ and their properties.
+
+* __Shop__
 	- identificator
 	- name
 	- description
-	* Location
+	* __Location__
 		- x
 		- y
 		- z
 		- latitude
 		- longitude
 		- address
-* Box
+* __Box__
 	- identificator
 	- name
-	* Pack
+	* __Pack__
 		- identificator
 		- quantity
 		- discount percent
-		* Merchandise
+		* __Merchandise__
 			- name
 			- price
 
